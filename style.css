@@ -1,0 +1,110 @@
+.artwork {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 3px;
+    background-color: lightblue;
+    height: 50px;
+    z-index: 3;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: auto;
+    width: 94vw;
+    height: 500px;
+    background-color: lightblue;
+    z-index: 3;
+
+}
+
+.grass {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: auto;
+    margin-top: 2px;
+    width: 94vw;
+    height: 10px;
+    background-color: rgb(133, 201, 140);
+    z-index: 3;
+}
+
+.house {
+    background-color: rgb(176, 57, 57);
+    width: 300px;
+    height: 300px;
+    z-index: 6;
+    position: absolute;
+    left: 900px;
+    top: 367px;
+
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 200px solid rgb(176, 57, 57);
+    position: absolute;
+    left: 900px;
+    top: 168px;
+
+}
+
+.yellowsun {
+    height: 300px;
+    width: 300px;
+    background-color: #ffe031;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 150px;
+}
+
+.orangesun {
+    height: 200px;
+    width: 200px;
+    background-color: #e79911;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+    top: 200px;
+}
+
+form {
+    padding: 16px;
+}
+
+/* Media Sizing - I cant get this to work sorry */
+
+@media screen (max-width: 768px) {
+    .media_size {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media screen (max-width: 1050px) {
+    .media_size {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+}
+
+@media screen (max-width: 320px) {
+    .media_size {
+        margin: 0 auto;
+        padding: 0;
+    }
+}
