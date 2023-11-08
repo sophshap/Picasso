@@ -85,26 +85,26 @@ form {
     padding: 16px;
 }
 
-/* Media Sizing - I cant get this to work sorry */
+/* Media Sizing - please teach this in class */
 
-@media screen (max-width: 768px) {
+@media screen and (max-width: 1680px) {
     .media_size {
         margin: 0 auto;
         padding: 0;
     }
 }
 
-@media screen (max-width: 1050px) {
-    .media_size {
-        margin: 0 auto;
-        padding: 0;
+@media screen and (max-width: 768px) {
+    .house {
+        left: 500px;
+        width: 200px;
     }
 
 }
 
-@media screen (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .media_size {
-        margin: 0 auto;
-        padding: 0;
+        left: 500px;
+        width: 200px;
     }
 }
